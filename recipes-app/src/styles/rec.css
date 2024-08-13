@@ -1,0 +1,38 @@
+.reclist{
+    background-color: grey;
+    padding: 9px;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.reclist a{
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+}
+
+.reclist a:hover{
+    color: grey;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+
+
+.check:checked + #ing {
+    text-decoration: line-through; /* Or any other decoration */
+}
